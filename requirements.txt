@@ -1,0 +1,16 @@
+# Core dependencies
+numpy>=1.24.0
+Pillow>=10.0.0
+opencv-python>=4.8.0
+streamlit>=1.28.0
+
+# Machine learning
+torch>=2.0.0
+open-clip-torch>=2.23.0
+
+# Vector index (FAISS preferred, hnswlib as fallback)
+faiss-cpu>=1.7.4
+# hnswlib>=0.8.0  # Uncomment if FAISS is unavailable on your platform
+
+# Optional (for benchmarking memory usage)
+psutil>=5.9.0
